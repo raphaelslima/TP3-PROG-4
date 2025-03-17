@@ -2,6 +2,8 @@
 
 Integrantes: João Pedro Silva, Nathan Siqueira, Raphael Lima
 
+### Para rodar o código de cada questão como tem dois arquivos apps, abra o dirétorio de cada questão por favor, se abrir o global pode dar um erro.
+
 O trabalho consistiu na implementação de uma árvore B para organizar e pesquisar números em arquivos grandes, onde não é possível carregar o arquivo inteiro em memória. O primeiro passo foi criar uma árvore B convencional. Para testar as operações de busca, inserção e remoção, utilizamos um arquivo pequeno, conseguindo realizar as operações sem problemas. Essa foi a primeira parte da atividade.
 
 Depois seguimos para a parte do desafio, onde tivemos uma dificuldade maior no processo de visualizar como funcionaria a lógica para as folhas serem pontos de referência para um arquivo em memória secundária. Percebemos uma similaridade do funcionamento do sistema com a árvore B+, onde os valores dos nós superiores são passados para nós inferiores de forma a criar uma cópia do arquivo principal ordenado nas folhas, podendo assim ligá-las com ponteiros e formar uma estrutura sequencial.
